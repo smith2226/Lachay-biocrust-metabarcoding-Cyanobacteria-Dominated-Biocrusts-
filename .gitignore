@@ -1,0 +1,32 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Data and pipeline outputs (distributed via Zenodo and the article supplement)
+*.rds
+*.RData
+*.fastq
+*.fastq.gz
+*.fasta
+*.fasta.gz
+Zenodo_Metabarcoding/
+results/
+objects/
+
+# BLAST databases
+*.nhr
+*.nin
+*.nsq
+*.ndb
+*.njs
+*.not
+*.nto
+*.nog
+*.nos
+*.ntf
+
+# OS
+.DS_Store
+Thumbs.db

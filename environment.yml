@@ -1,0 +1,10 @@
+# Command-line tools used by the 00_*_Demux_Trim.sh scripts.
+# R packages are installed separately with install_R_packages.R
+name: metabar
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - sabre
+  - cutadapt
+  - blast
